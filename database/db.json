@@ -1,0 +1,253 @@
+{
+  "user": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "gender": "Male",
+    "email": "j.smith@figaro.com",
+    "location": "Turin, IT",
+    "voice": "Countertenor"
+  },
+  "voices": {
+    "male": [
+      "Countertenor",
+      "Tenor",
+      "Baritone",
+      "Bass"
+    ],
+    "female": [
+      "Soprano",
+      "Mezzo-soprano",
+      "Contralto"
+    ]
+  },
+  "exercises": [
+    {
+      "name": "Warmup before the show",
+      "difficulty": "Easy",
+      "pattern": [
+        0,
+        2,
+        4
+      ],
+      "repetitions": 2,
+      "favorite": true,
+      "id": "1",
+      "suggested": true
+    },
+    {
+      "name": "Daily warmup",
+      "difficulty": "Easy",
+      "pattern": [
+        0,
+        2,
+        4
+      ],
+      "repetitions": 12,
+      "favorite": false,
+      "id": "2",
+      "suggested": true
+    },
+    {
+      "name": "Major scale to 5th | Full octave ",
+      "difficulty": "Easy",
+      "pattern": [
+        0,
+        2,
+        4
+      ],
+      "repetitions": 1,
+      "favorite": true,
+      "id": "3"
+    },
+    {
+      "name": "Major scale to 3rd | Full octave ",
+      "difficulty": "Medium",
+      "pattern": [
+        0,
+        2,
+        4,
+        1,
+        3,
+        4
+      ],
+      "repetitions": 12,
+      "favorite": false,
+      "id": "4"
+    },
+    {
+      "name": "Minor scale to 3rd | Full octave",
+      "difficulty": "Easy",
+      "pattern": [
+        0,
+        2,
+        3
+      ],
+      "repetitions": 12,
+      "id": "5",
+      "favorite": true
+    },
+    {
+      "name": "Dominant Seventh",
+      "difficulty": "Hard",
+      "pattern": [
+        0,
+        2,
+        3
+      ],
+      "repetitions": 3,
+      "id": "6",
+      "favorite": false
+    }
+  ],
+  "tests": [
+    [
+      "1",
+      "2",
+      "1",
+      "3"
+    ],
+    [
+      "1",
+      "2",
+      "3"
+    ]
+  ],
+  "statistics": [
+    {
+      "exercise": "1",
+      "id": "1",
+      "name": "Warmup before the show",
+      "difficulty": "Easy",
+      "scores": [
+        {
+          "date": "2021-02-11T22:57:13.100Z",
+          "percentage": 86
+        },
+        {
+          "date": "2021-02-08T22:57:36.239Z",
+          "percentage": 26
+        },
+        {
+          "date": "2021-02-08T22:57:36.239Z",
+          "percentage": 100
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 26
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 26
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 26
+        },
+        {
+          "date": "2021-02-11T23:00:51.125Z",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "exercise": "3",
+      "id": "3",
+      "name": "Major scale to 5th | Full octave ",
+      "difficulty": "Easy",
+      "scores": [
+        {
+          "date": "2021-02-11T23:00:51.125Z",
+          "percentage": 90
+        }
+      ]
+    },
+    {
+      "exercise": "4",
+      "id": "4",
+      "name": "Major scale to 3rd | Full octave",
+      "difficulty": "Medium",
+      "scores": [
+        {
+          "date": "2021-02-12T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-12T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-12T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-08T22:57:36.239Z",
+          "percentage": 100
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 89
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 100
+        },
+        {
+          "date": "2021-02-16T14:18:23.874Z",
+          "percentage": 2
+        }
+      ]
+    },
+    {
+      "exercise": "6",
+      "id": "6",
+      "name": "Dominant seventh",
+      "difficulty": "Hard",
+      "scores": [
+        {
+          "date": "2021-02-09T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-09T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-09T23:00:51.125Z",
+          "percentage": 98
+        },
+        {
+          "date": "2021-02-11T22:57:36.239Z",
+          "percentage": 26
+        },
+        {
+          "date": "2021-02-12T22:57:36.239Z",
+          "percentage": 26
+        }
+      ]
+    },
+    {
+      "exercise": "2",
+      "id": "2",
+      "name": "Daily warmup",
+      "difficulty": "Easy",
+      "scores": [
+        {
+          "date": "2021-02-15T18:47:26.950Z",
+          "percentage": 66
+        },
+        {
+          "date": "2021-02-16T14:11:40.029Z",
+          "percentage": 100
+        },
+        {
+          "date": "2021-02-16T14:12:48.535Z",
+          "percentage": 100
+        },
+        {
+          "date": "2021-02-16T14:15:38.274Z",
+          "percentage": 94
+        }
+      ]
+    }
+  ]
+}

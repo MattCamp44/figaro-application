@@ -1,0 +1,29 @@
+.favorite-popup {
+    width: 60%;
+    position: fixed !important;
+    bottom: 2ex;
+    left: 20%;
+    text-align: center;
+}
+
+.list-row {
+    padding: 0 1em !important;
+}
+
+.list-entry {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 2.5ex !important;
+    padding-top: 2.5ex !important;
+    text-decoration: none;
+    font-size: 120%;
+    color: #282828;
+}
+
+.list-suggested {
+    color: #418592 !important;
+}
+
+.list-entry:hover {
+    color: teal !important;
+}
